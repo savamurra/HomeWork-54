@@ -16,6 +16,9 @@ const Table: React.FC<TableProps> = ({ items, cellClicked }) => {
                 gridTemplateColumns: 'repeat(6, 50px)',
                 gap: '4px',
                 border: '1px solid black',
+                width: '350px',
+                justifyContent: 'center',
+                padding: '10px',
             }}
         >
             {items.map((item) => (

@@ -1,4 +1,4 @@
-import {IProps} from "../../types";
+import {IProps} from '../../types';
 
 interface CellProps {
     item: IProps;
@@ -13,11 +13,8 @@ const Cell: React.FC<CellProps> = ({ item, cellClicked }) => {
                 display: 'flex',
                 width: '50px',
                 height: '50px',
-                backgroundColor: item.clicked ? 'grey' : 'red',
+                backgroundColor: item.clicked ? '' : 'grey',
                 cursor: 'pointer',
-                justifyContent: 'center',
-                alignItems: 'center',
-                border: '1px solid black',
             }}
         >
             {item.hasItem && item.clicked ? '💍' : ''}
