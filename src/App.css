@@ -1,0 +1,11 @@
+.board{
+    width: 500px;
+    margin: 100px auto;
+    box-shadow: 6px 6px 2px 1px rgba(3, 3, 42, 0.2);
+    background: #fff;
+    padding: 30px;
+}
+
+body{
+    background: #f0eded;
+}

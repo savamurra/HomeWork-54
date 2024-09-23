@@ -1,12 +1,13 @@
 import React from 'react';
+import './Reset.css';
 interface Props {
     onReset: () => void;
 }
 
 const Reset:React.FC<Props> = ({onReset}) => {
     return (
-        <div>
-            <button onClick={onReset} type='button'>Reset</button>
+        <div style={{width: 'max-content', margin: 'auto'}}>
+            <button onClick={onReset} type='button'>RESET</button>
         </div>
     );
 };

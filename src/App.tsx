@@ -64,9 +64,11 @@ const App = () => {
 
     return (
         <>
-            <Table items={items} cellClicked={cellClick}/>
-            <Attempts count={attempts}/>
-            <Reset onReset={ResetGame}/>
+            <div className='board'>
+                <Table items={items} cellClicked={cellClick}/>
+                <Attempts count={attempts}/>
+                <Reset onReset={ResetGame}/>
+            </div>
         </>
     );
 };
