@@ -1,7 +1,7 @@
 
 import { IProps } from '../../types';
 import * as React from 'react';
-import Cell from '../Cell/Cell.tsx';
+import Cell from './Cell/Cell.tsx';
 
 interface TableProps {
     items: IProps[];
